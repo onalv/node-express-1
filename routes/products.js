@@ -10,3 +10,5 @@ var allProducts = [
 router.get('/', function (req, res, next) {
     res.json(allProducts);
 });
+
+module.exports = router;
